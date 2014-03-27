@@ -1,3 +1,10 @@
+# Note
+Fork to add missing Android permission 
+
+	<config-file target="AndroidManifest.xml" parent="/manifest">
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	</config-file>
+
 # GAPlugin
 
 > Google Analytics plugin for iOS and Android. This allows you to post usage information to your Google Analytics account.
