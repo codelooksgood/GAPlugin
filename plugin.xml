@@ -49,6 +49,7 @@
         <source-file src="src/ios/libGoogleAnalyticsServices.a" framework="true" />
 
         <header-file src="src/ios/GAITracker.h" />
+        <header-file src="src/ios/GAIEcommerceFields.h" />
         <header-file src="src/ios/GAITrackedViewController.h" />
         <header-file src="src/ios/GAIDictionaryBuilder.h" />
         <header-file src="src/ios/GAIEcommerceProductAction.h" />
