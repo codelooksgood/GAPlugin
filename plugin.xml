@@ -35,6 +35,7 @@
 		<framework src="com.google.gms:google-services:3.0.0" />
 		<framework src="com.google.android.gms:play-services-analytics:10.2.4" />
 		<hook type="after_plugin_add" src="src/hooks/androidAfterInstall.js" />
+		<hook type="after_platform_add" src="src/hooks/androidAfterInstall.js" />
 	</platform>
 
 	<platform name="ios">
