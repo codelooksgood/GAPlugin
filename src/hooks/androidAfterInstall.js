@@ -8,8 +8,6 @@ module.exports = function(context) {
 	var platformRoot = path.join(context.opts.projectRoot, "platforms/android");
 	var googleSercicesPath = path.join(context.opts.projectRoot, "google-services.json");
 
-	console.log(platformRoot, googleSercicesPath);
-
 	fs.createReadStream(googleSercicesPath).pipe(fs.createWriteStream(path.join(platformRoot, "google-services.json")));
 
 	return deferral.promise;
